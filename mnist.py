@@ -14,11 +14,11 @@ from scikeras.wrappers import KerasClassifier
 
 
 
-train_set = np.load("train_images.npy")
-train_labels = np.load("train_labels.npy")
+train_set = np.load("src/data/train_images.npy")
+train_labels = np.load("src/data/train_labels.npy")
 
-test_set = np.load("test_images.npy")
-test_labels = np.load("test_labels.npy")
+test_set = np.load("src/data/test_images.npy")
+test_labels = np.load("src/data/test_labels.npy")
 
 # function to visualize images
 def visual(set, labels):
